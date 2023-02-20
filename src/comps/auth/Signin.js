@@ -16,6 +16,7 @@ const Signin = () => {
 
 	const signInWithGoogle = () => {
 		const provider = new GoogleAuthProvider();
+		// Dont forget to add your domain to authorized domains in the console when deploying
 		signInWithRedirect(auth, provider);
 		getRedirectResult(auth)
 			.then((result) => {
