@@ -1,0 +1,11 @@
+.title {
+	padding: 1rem;
+	display: flex;
+	justify-content: space-between;
+}
+
+.title div img {
+	border-radius: 50%;
+	cursor: pointer;
+	border: 2px dashed tomato;
+}

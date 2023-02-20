@@ -6,6 +6,13 @@
 	--error: #ff4a4a;
 }
 
+* {
+	/* outline: 1px solid red; */
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
 /* base styles & title */
 body {
 	font-family: "Noto Serif";
@@ -21,11 +28,11 @@ body {
 	letter-spacing: 2px;
 	font-weight: normal;
 }
-.title h2,
-.title p {
+.sub_title h2,
+.sub_title p {
 	text-align: center;
 }
-.title h2 {
+.sub_title h2 {
 	margin-top: 60px;
 	font-size: 2.6rem;
 }
@@ -110,6 +117,10 @@ label:hover {
 	}
 }
 
-.signup div {
+.signup div svg {
 	cursor: pointer;
+}
+
+.signup h2 {
+	text-align: center;
 }

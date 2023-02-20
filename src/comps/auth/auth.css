@@ -1,0 +1,76 @@
+.auth_tab {
+	display: flex;
+	gap: 1rem;
+	padding: 1rem;
+	color: black;
+}
+
+.auth_tab a {
+	padding: 0.75rem 1.25rem;
+}
+
+.active {
+	color: white;
+	background: rgba(0, 0, 0.7);
+}
+
+a {
+	text-decoration: none;
+	font-weight: semi-bold;
+}
+
+.auth_section {
+	max-width: 50%;
+	margin-inline: auto;
+	background: white;
+}
+
+.auth {
+	background-image: url(../../images/bg.png);
+	min-width: 100%;
+	min-height: 100vh;
+	padding-top: 3rem;
+}
+
+form {
+	display: flex;
+	flex-direction: column;
+	margin-inline: 1.5rem;
+	padding-top: 1rem;
+}
+
+form > * {
+	padding: 1rem;
+}
+
+button {
+	margin-block: 1rem;
+	margin-bottom: 2rem;
+	cursor: pointer;
+	font-size: 1.2rem;
+}
+
+form h3 {
+	font-size: 1rem;
+}
+
+.google {
+	display: flex;
+	justify-content: center;
+	padding-block: 1rem;
+}
+
+.logout {
+	padding-inline: 2rem;
+	padding-block: 1rem;
+	margin: 0.5rem;
+}
+
+@media only screen and (max-width: 600px) {
+	.img-grid {
+		grid-template-columns: 1fr;
+	}
+	.auth_section {
+		max-width: 100%;
+	}
+}

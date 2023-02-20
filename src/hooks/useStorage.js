@@ -31,6 +31,7 @@ const useStorage = (file) => {
 					addDoc(collection(db, "images"), {
 						url,
 						createdAt,
+						// uid:
 					});
 				});
 			}
